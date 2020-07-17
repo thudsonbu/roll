@@ -1,0 +1,47 @@
+.RollDice {
+    margin-bottom: 3em;
+    padding: 1em;
+    background-color: #282c34;
+}
+
+.RollDice-Dice {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 5em;
+}
+
+.RollDice-Title {
+    font-size: 5em;
+    color: white;
+}
+
+.RollDice button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background-color: #fcad26;
+    width: 12em;
+    font-size: 1.5em;
+    font-weight: 300px;
+    color: #282c34;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 1em 2em;
+    margin: 0 auto;
+    border-radius: 1.15em;
+    box-shadow: 0 .3em #c4871e;
+}
+  
+.RollDice button:hover {
+    box-shadow: 0 .2em #c4871e;
+    top: .1em;
+  }
+
+.RollDice button:active {
+    box-shadow: 0 0 #c4871e;
+    top: .3em;
+}

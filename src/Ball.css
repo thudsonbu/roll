@@ -1,0 +1,19 @@
+.Ball {
+    background-color: #bb1ba0;
+    box-shadow: .15em .15em #8f167b;
+    border-radius: 50%;
+    color: #282c34;
+    display: inline-block;
+    width: 5em;
+    height: 4em;
+    padding-top: .75em;
+    text-align: center;
+    margin: 0.5em;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.Ball-Text {
+  margin-top: .95em;
+}
+  
