@@ -1,0 +1,12 @@
+.BoxContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.BoxContainer-Title {
+    font-size: 5em;
+    color: #ffffff;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import RollDice from './RollDice';
 import Lottery from './Lottery';
 import Flipper from './Flipper';
+import BoxContainer from './BoxContainer';
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <RollDice />
       <Lottery />
       <Flipper />
+      <BoxContainer />
     </div>
   );
 }

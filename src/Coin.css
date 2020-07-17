@@ -14,13 +14,3 @@
 .Coin-Text {
     font-size: 2em;
 }
-
-.heads {
-    background-color: #37cf7b;
-    box-shadow: inset -8px -8px 0px 0px #15866a, 0px 9px 30px 0px rgba(0,0,255,0.15);
-}
-
-.tails {
-    background-color: #26b8fc;
-    box-shadow: inset -8px -8px 0px 0px #197da5, 0px 9px 30px 0px rgba(0,0,255,0.15);
-}
