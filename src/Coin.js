@@ -5,7 +5,7 @@ class Coin extends Component {
     render() {
         return (
             <div className={`Coin ${this.props.side}`}>
-                <div className="Coin-Text">{this.props.side === 'heads' ? 'T' : 'H'}</div>
+                <div className="Coin-Text">{this.props.side === 'heads' ? 'H' : 'T'}</div>
             </div>
         )
     }
