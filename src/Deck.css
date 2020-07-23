@@ -1,0 +1,56 @@
+.Deck {
+    height: 500px;
+    
+}
+
+.Deck-title-box {
+    height: 100px;
+}
+
+.Deck-title {
+    font-size: 5em;
+    color: white;
+}
+
+.Deck-cards {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Deck-button {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.Deck button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background-color: #bb1ba0;
+    width: 12em;
+    font-size: 1.5em;
+    font-weight: 300px;
+    color: #282c34;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 1em 2em;
+    margin: 3em auto;
+    border-radius: 1.15em;
+    box-shadow: 0 .3em #8f167b;
+}
+  
+.Deck button:hover {
+    box-shadow: 0 .2em #8f167b;
+    top: .1em;
+  }
+
+.Deck button:active {
+    box-shadow: 0 0 #8f167b;
+    top: .3em;
+}

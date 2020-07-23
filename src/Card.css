@@ -1,0 +1,7 @@
+.Card {
+    position: absolute;
+    height: 140px;
+    width: 100px;
+    background-position: center;
+    background-size: contain;
+}
